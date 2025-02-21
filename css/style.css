@@ -1,0 +1,193 @@
+.menu-frame {
+    height: 50px;
+    width: 100%;
+    border: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav {
+    background-color: #393939;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 9px;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+.content-frame {
+    height: calc(100vh - 50px);
+    width: 100%;
+    border: none;
+}
+
+.first-page-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    margin-left: 8px;
+    background-color: #9000603e;
+    background-attachment: fixed;
+}
+
+.first-page-h1 {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+}
+
+.first-page-p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#img-page-3 {
+    width: 200px;
+    height: 150px;
+}
+
+.third-page-div {
+    height: 100%;
+    width: 96%;
+    margin-left: 8px;
+    background-color: #d0d0d03e;
+    background-attachment: fixed;
+    border-color: #111;
+    border-width: 4px;
+    border-style: solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.block-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.block-group {
+    margin: 10px;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.block-group.block .block {
+    display: block;
+}
+
+.block-group.inline .block {
+    display: inline;
+}
+
+.block-group.inline-block .block {
+    display: inline-block;
+}
+
+.block-group.static .block {
+    position: static;
+}
+
+.block-group.relative .block {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.block-group.absolute .block {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.block-group.fixed .block {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+}
+
+.block-group.sticky .block {
+    position: sticky;
+    top: 40px;
+}
+
+.box {
+    box-sizing: border-box;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.content {
+   box-sizing: content-box;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.green {
+    background-color: green;
+}
+
+.line {
+    border: 1px solid black;
+    height: 3000px;
+}
