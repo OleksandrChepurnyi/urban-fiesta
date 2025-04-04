@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.mondrian {
+    display: grid;
+    width: 800px;
+    height: 800px;
+    grid-template-columns: repeat(100, 1fr);
+    grid-template-rows: repeat(100, 1fr);
+    border: 5px solid black;
+    border-radius: 3px;
+}
+
+.block {
+    box-sizing: border-box;
+    border: 5px solid black;
+}
+
+.a {
+    grid-area: a;
+    background-color: rgb(255, 255, 255);
+    grid-column: span 24;
+    grid-row: span 12;
+}
+
+.b {
+    grid-area: b;
+    background-color: rgb(255, 255, 255);
+    grid-column: span 38;
+    grid-row: span 12;
+}
+
+.c {
+    grid-area: c;
+    background-color: yellow;
+    grid-column: span 32;
+    grid-row: span 12;
+}
+
+.d {
+    grid-area: d;
+    background-color: white;
+    grid-column: span 6;
+    grid-row: span 75;
+}
+
+.q {
+    grid-area: q;
+    background-color: rgb(255, 255, 255);
+    grid-column: span 12;
+    grid-row: span 25;
+}
+
+.w {
+    grid-area: w;
+    background-color: rgb(255, 0, 0);
+    grid-column: span 50;
+    grid-row: span 50;
+}
+
+.e {
+    grid-area: e;
+    background-color: yellow;
+    grid-column: span 32;
+    grid-row: span 25;
+}
+
+.r {
+    grid-area: r;
+    background-color: rgb(255, 255, 255);
+    grid-column: span 12;
+    grid-row: span 38;
+}
+
+.t {
+    grid-area: t;
+    background-color: rgb(255, 255, 255);
+    grid-column: span 16;
+    grid-row: span 25;
+}
+
+.y {
+    grid-area: y;
+    background-color: rgb(0, 0, 0);
+    grid-column: span 25;
+    grid-row: span 25;
+}
+
+.u {
+    grid-area: u;
+    background-color: rgb(255, 255, 255);
+    grid-column: span 25;
+    grid-row: span 13;
+}
+
+.i {
+    grid-area: i;
+    background-color: rgb(255, 255, 255);
+    grid-column: span 32;
+    grid-row: span 13;
+}
+
+.o {
+    grid-area: o;
+    background-color: yellow;
+    grid-column: span 12;
+    grid-row: span 25;
+}
+
+.p {
+    grid-area: p;
+    background-color: rgb(255, 255, 255);
+    grid-column: span 25;
+    grid-row: span 12;
+}
+
+.f {
+    grid-area: f;
+    background-color: rgb(31, 0, 204);
+    grid-column: span 32;
+    grid-row: span 18;
+}
+
+.g {
+    grid-area: g;
+    background-color: rgb(255, 0, 0);
+    grid-column: span 6;
+    grid-row: span 25;
+}
+
+.h {
+    grid-area: h;
+    background-color: rgb(255, 255, 255);
+    grid-column: span 25;
+    grid-row: span 14;
+}
+
+.j {
+    grid-area: j;
+    background-color: rgb(0, 0, 0);
+    grid-column: span 25;
+    grid-row: span 6;
+}
+
+.k {
+    grid-area: k;
+    background-color: rgb(255, 255, 255);
+    grid-column: span 57;
+    grid-row: span 7;
+}
